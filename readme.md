@@ -8,6 +8,6 @@
    * Polly as a Tool
    
  => Further Read:
- https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/application-resiliency-patterns
- https://github.com/App-vNext/Polly
+ * https://docs.microsoft.com/en-us/dotnet/architecture/cloud-native/application-resiliency-patterns
+ * https://github.com/App-vNext/Polly
 
