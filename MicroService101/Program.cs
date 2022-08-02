@@ -16,6 +16,7 @@ namespace MicroService101
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddScoped<IStudentService, StudentService>();
+            builder.Services.AddHttpClient();
 
             var app = builder.Build();
 
