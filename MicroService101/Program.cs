@@ -1,3 +1,6 @@
+using MicroService101.Interfaces;
+using MicroService101.Services;
+
 namespace MicroService101
 {
     internal class Program
@@ -12,6 +15,8 @@ namespace MicroService101
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddScoped<IStudentService, StudentService>();
+            builder.Services.AddHttpClient();
 
             var app = builder.Build();
 
